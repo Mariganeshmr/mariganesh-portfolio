@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariganesh M - Biomedical Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Mariganesh M</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li class="nav-item"><a href="#projects-modal" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact-modal" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mariganesh M</h1>
+            <h2>Biomedical Engineer</h2>
+            <p>Biomedical Engineering graduate passionate about using technology to improve patient care and healthcare innovation</p>
+            <div class="hero-buttons">
+                <button class="btn primary" onclick="openModal('projects-modal')">View Projects</button>
+                <button class="btn secondary" onclick="openModal('contact-modal')">Contact Me</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="card-content">
+                    <h3>Quick Info</h3>
+                    <p><i class="fas fa-envelope"></i> mariganesh.bme@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 6369751125</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pattukkottai, Thanjavur, Tamil Nadu</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mari-ganesh-m-30579a434" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Mariganeshmr" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Web Development</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React (Basic)</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-hospital"></i> Biomedical</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Medical Instrumentation</span>
+                    <span class="skill-tag">Embedded Systems & IoT</span>
+                    <span class="skill-tag">IoMT</span>
+                    <span class="skill-tag">3D Printing</span>
+                    <span class="skill-tag">Medical Imaging</span>
+                    <span class="skill-tag">Preventive Maintenance</span>
+                    <span class="skill-tag">Quality Inspection</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Programming & Tools</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">MS Office</span>
+                    <span class="skill-tag">Canva Design</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Google Colab</span>
+                    <span class="skill-tag">SolidWorks (Learning)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I’m a Biomedical Engineering graduate with hands-on experience in medical devices and healthcare equipment.
+
+I have experience in manufacturing, QC inspection, testing, troubleshooting, preventive maintenance documentation, and service-related work through my internships at Phoenix Medical System and Ababil Healthcare.
+
+I’m interested in Medical Device R&D, Biomedical Hardware, V&V, QA/QC, and Manufacturing roles. I’m also learning Embedded Systems, IoMT, Design SolidWorks. </p>
+            
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="education-details">
+                        <h4>Sri Muthukumaran Institute of Technology</h4>
+                        <p>B.E Biomedical Engineering | 2022 – 2026 (Completed)</p>
+                        <p class="highlight">CGPA: 7.9</p>
+                    </div>
+                    <div class="education-details">
+                        <h4>Government Hr Sec School, Pattukkottai</h4>
+                        <p>HSC: 55.3% | 2021 – 2022</p>
+                        <p>SSLC: 57.2% | 2019 – 2020</p>
+                    </div>
+                </div>
+                
+                <div class="internship-item">
+                    <h3><i class="fas fa-briefcase"></i> Internships & Experience</h3>
+
+                    <div class="internship-details">
+                        <h4>Biomedical Engineering Intern – Ababil Healthcare (P) Ltd</h4>
+                        <span class="date">Aug 2026 – Present</span>
+                        <p>Working in the Service Department at the Chennai location, gaining practical experience in preventive maintenance (PM) service coordination, biomedical equipment documentation, and service report tracking.</p>
+                        <div class="project-features">
+                            <h4>Key Responsibilities:</h4>
+                            <ul>
+                                <li>Collected and tracked preventive maintenance (PM) reports.</li>
+                                <li>Reviewed emails to identify pending PM reports, installation reports, and service documentation.</li>
+                                <li>Monitored purchase order (PO) status and in-progress service activities.</li>
+                                <li>Updated and maintained service documentation using relevant reporting portals.</li>
+                                <li>Followed up on missing installation reports and equipment log files.</li>
+                                <li>Supported service documentation management and report verification.</li>
+                            </ul>
+                            <p><strong>Skills Gained:</strong> Preventive Maintenance Documentation, Service Coordination, Report Tracking, Email Communication, Documentation Management, Data Verification.</p>
+                        </div>
+                    </div>
+
+                    <div class="internship-details">
+                        <h4>Production Intern – Phoenix Medical Systems (P) Ltd</h4>
+                        <span class="date">18 March 2026 – 04 July 2026</span>
+                        <p>Completed internship in the Production Department, gaining hands-on exposure to medical equipment manufacturing, quality inspection, and testing. Recognized for sincerity, discipline, and punctuality throughout the tenure.</p>
+                        <div class="project-features">
+                            <h4>Key Responsibilities:</h4>
+                            <ul>
+                                <li>Assisted with the assembly of medical equipment, including infant warmers and phototherapy units.</li>
+                                <li>Gained hands-on exposure to quality control (QC) inspection and product verification.</li>
+                                <li>Supported final testing and basic troubleshooting activities.</li>
+                                <li>Observed manufacturing processes and product quality procedures.</li>
+                                <li>Assisted with technical documentation and production-related activities.</li>
+                            </ul>
+                            <p><strong>Skills Gained:</strong> Medical Equipment Manufacturing, Assembly, Quality Inspection, Functional Testing, Basic Troubleshooting, Technical Documentation.</p>
+                        </div>
+                    </div>
+
+                    <div class="internship-details">
+                        <h4>Chennai Meenakshi Multispeciality Hospital</h4>
+                        <span class="date">July 2025</span>
+                        <p>Hands-on troubleshooting of departmental equipment under the guidance of experienced biomedical engineers, with real-world application of biomedical principles in patient care and hospital operations.</p>
+                    </div>
+
+                    <div class="internship-details">
+                        <h4>Neura AI, Chennai</h4>
+                        <span class="date">Oct 2025</span>
+                        <p>Designed and simulated a 660 nm LLLT (Low-Level Laser Therapy) Hair Growth Stimulator.</p>
+                    </div>
+
+                    <div class="internship-details">
+                        <h4>Focus Imaging Systems</h4>
+                        <span class="date">Oct 2024</span>
+                        <p>Hands-on experience with medical imaging equipment and practical biomedical engineering skills.</p>
+                    </div>
+
+                    <div class="internship-details">
+                        <h4>Deepam Hospitals</h4>
+                        <span class="date">Mar 2024</span>
+                        <p>Trained in operating and maintaining ultrasound, ICU, and physiotherapy equipment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Certificates & Documents Section ====== -->
+    <section id="certificates" class="certificates">
+        <h2 class="section-title">Certificates & Documents</h2>
+        <div class="cert-download-grid">
+            
+            <!-- Resume -->
+            <div class="cert-download-card">
+                <i class="fas fa-file-pdf"></i>
+                <h4>Resume</h4>
+                <p>Download my latest resume</p>
+                <div class="cert-btn-group">
+                    <a href="Mariganesh_Resume.pdf" target="_blank" class="cert-preview-btn">
+                        <i class="fas fa-eye"></i> Preview
+                    </a>
+                    <a href="Mariganesh_Resume.pdf" download="Mariganesh_M_Resume.pdf" class="cert-download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ababil Offer Letter -->
+            <div class="cert-download-card">
+                <i class="fas fa-file-pdf"></i>
+                <h4>Ababil Healthcare – Offer Letter</h4>
+                <p>Internship offer letter (Service Department)</p>
+                <div class="cert-btn-group">
+                    <a href="Ababil_Offer_Letter.pdf" target="_blank" class="cert-preview-btn">
+                        <i class="fas fa-eye"></i> Preview
+                    </a>
+                    <a href="Ababil_Offer_Letter.pdf" download="Ababil_Offer_Letter.pdf" class="cert-download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <!-- Phoenix Certificate -->
+            <div class="cert-download-card">
+                <i class="fas fa-file-pdf"></i>
+                <h4>Phoenix Medical Systems – Certificate</h4>
+                <p>Internship completion certificate (Production)</p>
+                <div class="cert-btn-group">
+                    <a href="Phoenix_Certificate.pdf" target="_blank" class="cert-preview-btn">
+                        <i class="fas fa-eye"></i> Preview
+                    </a>
+                    <a href="Phoenix_Certificate.pdf" download="Phoenix_Certificate.pdf" class="cert-download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Modal -->
+    <div id="projects-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('projects-modal')">&times;</span>
+            <h2>Projects & Experience</h2>
+            
+            <div class="modal-section">
+                <h3><i class="fas fa-heartbeat"></i> Wireless Non-Invasive Blood Glucose Monitoring</h3>
+                <p>A wireless non-invasive blood glucose monitor that uses smart sensors to read glucose levels through the skin and shares data with mobile apps.</p>
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Non-invasive technology for patient comfort</li>
+                        <li>IoMT sensors for continuous monitoring</li>
+                        <li>Mobile app integration for real-time data</li>
+                        <li>Wireless data transmission</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3><i class="fas fa-brain"></i> EEG-Based Machine Learning Diagnostic System for Early Alzheimer's Detection</h3>
+                <p>Early-stage Alzheimer's disease detection using EEG signal analysis and Machine Learning.</p>
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Focus on early-stage Alzheimer's identification</li>
+                        <li>Frequency-domain analysis using Fast Fourier Transform (FFT)</li>
+                        <li>Extraction of alpha, beta, delta, and theta brain wave features</li>
+                        <li>Use of interpretable machine learning algorithms (SVM and KNN)</li>
+                        <li>Evaluated effectiveness of ML techniques in Alzheimer's detection</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="cert-grid">
+                    <span class="cert-tag">Medical Device Quality Assurance</span>
+                    <span class="cert-tag">3D Printing For Artificial Organs</span>
+                    <span class="cert-tag">Paper Presentation - MDDDS</span>
+                    <span class="cert-tag">Geo-data sharing and cyber security</span>
+                    <span class="cert-tag">Molecular Innovations In Entomology</span>
+                    <span class="cert-tag">Research Presentation - IEEE</span>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3><i class="fas fa-wrench"></i> Workshops</h3>
+                <div class="workshop-item">
+                    <h4>Leeway Biomedical</h4>
+                    <p>Gained hands-on knowledge by dismantling and reassembling syringes and infusion pumps. In-depth understanding of ICU monitoring equipment.</p>
+                </div>
+                <div class="workshop-item">
+                    <h4>Marina Labs</h4>
+                    <p>Practical experience with aerobiology instruments including Anderson Pipette, Liquid Impinger, and Andersen Cascade Impactor.</p>
+                </div>
+                <div class="workshop-item">
+                    <h4>Harvey Biomedical</h4>
+                    <p>Medical Device Quality Assurance Webinar. Learning regulatory compliance and risk management.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('contact-modal')">&times;</span>
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> mariganesh.bme@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 6369751125</p>
+                <p><i class="fas fa-map-marker-alt"></i> Pattukkottai, Thanjavur, Tamil Nadu</p>
+            </div>
+            <div class="social-links-large">
+                <a href="https://www.linkedin.com/in/mari-ganesh-m-30579a434" target="_blank" class="social-btn linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Mariganeshmr" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            <a href="Mariganesh_Resume.pdf" download="Mariganesh_M_Resume.pdf" class="btn primary download-btn">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Mariganesh M. All rights reserved. | Biomedical Engineer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
